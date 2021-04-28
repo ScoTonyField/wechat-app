@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Enactus",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Index"
+    },{
+      "pagePath": "pages/home/home",
+      "text": "Home"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "Log"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
